@@ -1,0 +1,1 @@
+{"version":3,"file":"752.bundle.js","mappings":"kIAOA,UALkB,WAChB,OAAO","sources":["webpack://reduxcoin/./src/containers/Favorites.jsx"],"sourcesContent":["import React from 'react'\r\n\r\nconst Favorites = () => {\r\n  return <div></div>\r\n  \r\n}\r\n\r\nexport default Favorites"],"names":[],"sourceRoot":""}

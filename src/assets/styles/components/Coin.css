@@ -1,0 +1,156 @@
+.coin-card {
+    height: 350px;
+    width: 250px;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.677);
+    border-radius: 15px;
+    padding: 0px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coin-image {
+    width: 120px;
+}
+
+.image-cont {
+    background-color: rgba(71, 71, 250, 0.771);
+    width: 250px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 150px;
+}
+
+.options {
+    display: flex;
+    width: 150px;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.more-details {
+    color: rgba(128, 128, 128, 0.637);
+    cursor: pointer;
+}
+
+.more-details:hover {
+    color: black;
+}
+
+.icon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.coin-name {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    width: 100%;
+    padding-bottom: 2px;
+}
+
+span {
+    font-size: 20px;
+}
+
+.coin-symbol {
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.coin-current-price {
+    font-size: 10px;
+    font-weight: 200;
+}
+
+@media screen and (max-width: 426px) {
+    .coin-card {
+        height: 150px;
+        width: 130px;
+        box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.677);
+        border-radius: 15px;
+        padding: 0px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .image-cont {
+        background-color: rgba(71, 71, 250, 0.771);
+        width: 130px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .coin-image {
+        width: 50px;
+    }
+
+    .card-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 5px;
+        height: 150px;
+    }
+
+    .icon {
+        font-size: 10px;
+        cursor: pointer;
+    }
+
+    .more-details {
+        font-size: 15px;
+    }
+
+    .options {
+        display: flex;
+        width: 120px;
+        height: auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    span {
+        display: none;
+    }
+
+    .coin-name {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400;
+        width: 100%;
+        padding-bottom: 2px;
+    }
+}
